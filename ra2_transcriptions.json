@@ -1899,7 +1899,7 @@
     "file": "RA2_GameSounds/icfsmob.mp3",
     "filename": "icfsmob.mp3",
     "folder": "RA2_GameSounds",
-    "transcription": "But I was forking."
+    "transcription": "But I was working."
   },
   "RA2_GameSounds/icfsmoc.mp3": {
     "file": "RA2_GameSounds/icfsmoc.mp3",
@@ -1917,7 +1917,7 @@
     "file": "RA2_GameSounds/icfssea.mp3",
     "filename": "icfssea.mp3",
     "folder": "RA2_GameSounds",
-    "transcription": "THE."
+    "transcription": "Yes?"
   },
   "RA2_GameSounds/icfsseb.mp3": {
     "file": "RA2_GameSounds/icfsseb.mp3",
@@ -2049,7 +2049,7 @@
     "file": "RA2_GameSounds/ichrsee.mp3",
     "filename": "ichrsee.mp3",
     "folder": "RA2_GameSounds",
-    "transcription": "without a trace."
+    "transcription": "Without a trace."
   },
   "RA2_GameSounds/iciaata.mp3": {
     "file": "RA2_GameSounds/iciaata.mp3",
@@ -2427,7 +2427,7 @@
     "file": "RA2_GameSounds/iconsea.mp3",
     "filename": "iconsea.mp3",
     "folder": "RA2_GameSounds",
-    "transcription": "waiting orders"
+    "transcription": "Awaiting orders"
   },
   "RA2_GameSounds/iconseb.mp3": {
     "file": "RA2_GameSounds/iconseb.mp3",
@@ -2745,7 +2745,7 @@
     "file": "RA2_GameSounds/idesmob.mp3",
     "filename": "idesmob.mp3",
     "folder": "RA2_GameSounds",
-    "transcription": "Sculched Earth!"
+    "transcription": "Scorched Earth!"
   },
   "RA2_GameSounds/idesmoc.mp3": {
     "file": "RA2_GameSounds/idesmoc.mp3",
@@ -2769,7 +2769,7 @@
     "file": "RA2_GameSounds/idessea.mp3",
     "filename": "idessea.mp3",
     "folder": "RA2_GameSounds",
-    "transcription": "The oscillator ready."
+    "transcription": "Desolator ready."
   },
   "RA2_GameSounds/idesseb.mp3": {
     "file": "RA2_GameSounds/idesseb.mp3",
@@ -2787,7 +2787,7 @@
     "file": "RA2_GameSounds/idessed.mp3",
     "filename": "idessed.mp3",
     "folder": "RA2_GameSounds",
-    "transcription": "React or Ready!"
+    "transcription": "Reactor ready!"
   },
   "RA2_GameSounds/idessee.mp3": {
     "file": "RA2_GameSounds/idessee.mp3",
@@ -2991,7 +2991,7 @@
     "file": "RA2_GameSounds/iensfeb.mp3",
     "filename": "iensfeb.mp3",
     "folder": "RA2_GameSounds",
-    "transcription": "I have an arm!"
+    "transcription": "I'm unarmed!"
   },
   "RA2_GameSounds/iensfec.mp3": {
     "file": "RA2_GameSounds/iensfec.mp3",
@@ -3033,7 +3033,7 @@
     "file": "RA2_GameSounds/iensseb.mp3",
     "filename": "iensseb.mp3",
     "folder": "RA2_GameSounds",
-    "transcription": "Pools ready."
+    "transcription": "Tools ready."
   },
   "RA2_GameSounds/ienssec.mp3": {
     "file": "RA2_GameSounds/ienssec.mp3",
@@ -3045,7 +3045,7 @@
     "file": "RA2_GameSounds/iflaata.mp3",
     "filename": "iflaata.mp3",
     "folder": "RA2_GameSounds",
-    "transcription": "FLACK ATTACK!"
+    "transcription": "FLAK ATTACK!"
   },
   "RA2_GameSounds/iflaatb.mp3": {
     "file": "RA2_GameSounds/iflaatb.mp3",
@@ -3099,7 +3099,7 @@
     "file": "RA2_GameSounds/iflafea.mp3",
     "filename": "iflafea.mp3",
     "folder": "RA2_GameSounds",
-    "transcription": "I can't see through a flock!"
+    "transcription": "I can't see through the flak!"
   },
   "RA2_GameSounds/iflafeb.mp3": {
     "file": "RA2_GameSounds/iflafeb.mp3",
@@ -3147,7 +3147,7 @@
     "file": "RA2_GameSounds/iflasea.mp3",
     "filename": "iflasea.mp3",
     "folder": "RA2_GameSounds",
-    "transcription": "Flack Trooper reporting."
+    "transcription": "Flak Trooper reporting."
   },
   "RA2_GameSounds/iflaseb.mp3": {
     "file": "RA2_GameSounds/iflaseb.mp3",
@@ -3159,7 +3159,7 @@
     "file": "RA2_GameSounds/iflasec.mp3",
     "filename": "iflasec.mp3",
     "folder": "RA2_GameSounds",
-    "transcription": "Orders come red?"
+    "transcription": "Orders, comrade?"
   },
   "RA2_GameSounds/iflased.mp3": {
     "file": "RA2_GameSounds/iflased.mp3",
@@ -3261,7 +3261,7 @@
     "file": "RA2_GameSounds/igiatc.mp3",
     "filename": "igiatc.mp3",
     "folder": "RA2_GameSounds",
-    "transcription": "Enemy shited!"
+    "transcription": "Enemy sighted!"
   },
   "RA2_GameSounds/igiatd.mp3": {
     "file": "RA2_GameSounds/igiatd.mp3",
@@ -3471,7 +3471,7 @@
     "file": "RA2_GameSounds/irocfeb.mp3",
     "filename": "irocfeb.mp3",
     "folder": "RA2_GameSounds",
-    "transcription": "There's too much flag!"
+    "transcription": "There's too much flak!"
   },
   "RA2_GameSounds/irocfec.mp3": {
     "file": "RA2_GameSounds/irocfec.mp3",
@@ -3519,7 +3519,7 @@
     "file": "RA2_GameSounds/irocmob.mp3",
     "filename": "irocmob.mp3",
     "folder": "RA2_GameSounds",
-    "transcription": "Ignite and boosters!"
+    "transcription": "Igniting boosters!"
   },
   "RA2_GameSounds/irocmoc.mp3": {
     "file": "RA2_GameSounds/irocmoc.mp3",
@@ -3675,7 +3675,7 @@
     "file": "RA2_GameSounds/iseasea.mp3",
     "filename": "iseasea.mp3",
     "folder": "RA2_GameSounds",
-    "transcription": "See you already!"
+    "transcription": "SEAL ready!"
   },
   "RA2_GameSounds/iseaseb.mp3": {
     "file": "RA2_GameSounds/iseaseb.mp3",
@@ -3897,7 +3897,7 @@
     "file": "RA2_GameSounds/isnisea.mp3",
     "filename": "isnisea.mp3",
     "folder": "RA2_GameSounds",
-    "transcription": "Snipe already."
+    "transcription": "Sniper ready."
   },
   "RA2_GameSounds/isniseb.mp3": {
     "file": "RA2_GameSounds/isniseb.mp3",
@@ -3927,7 +3927,7 @@
     "file": "RA2_GameSounds/ispyatb.mp3",
     "filename": "ispyatb.mp3",
     "folder": "RA2_GameSounds",
-    "transcription": "disguise reggae"
+    "transcription": "Disguise ready!"
   },
   "RA2_GameSounds/ispyatc.mp3": {
     "file": "RA2_GameSounds/ispyatc.mp3",
@@ -4023,7 +4023,7 @@
     "file": "RA2_GameSounds/itanata.mp3",
     "filename": "itanata.mp3",
     "folder": "RA2_GameSounds",
-    "transcription": "SHUTCHING!"
+    "transcription": "CHA-CHING!"
   },
   "RA2_GameSounds/itanatb.mp3": {
     "file": "RA2_GameSounds/itanatb.mp3",
@@ -4035,7 +4035,7 @@
     "file": "RA2_GameSounds/itanatc.mp3",
     "filename": "itanatc.mp3",
     "folder": "RA2_GameSounds",
-    "transcription": "LIKED AND LOADED!"
+    "transcription": "LOCKED AND LOADED!"
   },
   "RA2_GameSounds/itanatd.mp3": {
     "file": "RA2_GameSounds/itanatd.mp3",
@@ -4077,7 +4077,7 @@
     "file": "RA2_GameSounds/itanmoa.mp3",
     "filename": "itanmoa.mp3",
     "folder": "RA2_GameSounds",
-    "transcription": "On there!"
+    "transcription": "Out there!"
   },
   "RA2_GameSounds/itanmob.mp3": {
     "file": "RA2_GameSounds/itanmob.mp3",
@@ -4161,7 +4161,7 @@
     "file": "RA2_GameSounds/iteratd.mp3",
     "filename": "iteratd.mp3",
     "folder": "RA2_GameSounds",
-    "transcription": "Graders must be eliminated!"
+    "transcription": "Traitors must be eliminated!"
   },
   "RA2_GameSounds/iterdia.mp3": {
     "file": "RA2_GameSounds/iterdia.mp3",
@@ -4203,7 +4203,7 @@
     "file": "RA2_GameSounds/itermoa.mp3",
     "filename": "itermoa.mp3",
     "folder": "RA2_GameSounds",
-    "transcription": "Bama muchachos!"
+    "transcription": "Vamos muchachos!"
   },
   "RA2_GameSounds/itermob.mp3": {
     "file": "RA2_GameSounds/itermob.mp3",
@@ -4251,7 +4251,7 @@
     "file": "RA2_GameSounds/itesata.mp3",
     "filename": "itesata.mp3",
     "folder": "RA2_GameSounds",
-    "transcription": "Two thousand worlds coming up."
+    "transcription": "Two thousand volts coming up."
   },
   "RA2_GameSounds/itesatb.mp3": {
     "file": "RA2_GameSounds/itesatb.mp3",
@@ -4317,7 +4317,7 @@
     "file": "RA2_GameSounds/itesfea.mp3",
     "filename": "itesfea.mp3",
     "folder": "RA2_GameSounds",
-    "transcription": "Grnd yourselves!"
+    "transcription": "Ground yourselves!"
   },
   "RA2_GameSounds/itesfeb.mp3": {
     "file": "RA2_GameSounds/itesfeb.mp3",
@@ -4353,19 +4353,19 @@
     "file": "RA2_GameSounds/itesmod.mp3",
     "filename": "itesmod.mp3",
     "folder": "RA2_GameSounds",
-    "transcription": "SIRGING FORWARD!"
+    "transcription": "SURGING FORWARD!"
   },
   "RA2_GameSounds/itesmoe.mp3": {
     "file": "RA2_GameSounds/itesmoe.mp3",
     "filename": "itesmoe.mp3",
     "folder": "RA2_GameSounds",
-    "transcription": "Elicration in the field."
+    "transcription": "Electricity in the field."
   },
   "RA2_GameSounds/itesmof.mp3": {
     "file": "RA2_GameSounds/itesmof.mp3",
     "filename": "itesmof.mp3",
     "folder": "RA2_GameSounds",
-    "transcription": "Robert Shoe is in motion."
+    "transcription": "Rubber shoes in motion."
   },
   "RA2_GameSounds/itessea.mp3": {
     "file": "RA2_GameSounds/itessea.mp3",
@@ -4377,7 +4377,7 @@
     "file": "RA2_GameSounds/itessec.mp3",
     "filename": "itessec.mp3",
     "folder": "RA2_GameSounds",
-    "transcription": "John, hang up."
+    "transcription": "Charging up."
   },
   "RA2_GameSounds/itessed.mp3": {
     "file": "RA2_GameSounds/itessed.mp3",
@@ -4479,13 +4479,13 @@
     "file": "RA2_GameSounds/iyursea.mp3",
     "filename": "iyursea.mp3",
     "folder": "RA2_GameSounds",
-    "transcription": "Sock it ready."
+    "transcription": "Psychic ready."
   },
   "RA2_GameSounds/iyurseb.mp3": {
     "file": "RA2_GameSounds/iyurseb.mp3",
     "filename": "iyurseb.mp3",
     "folder": "RA2_GameSounds",
-    "transcription": "Tell me I wish."
+    "transcription": "Tell me your wish."
   },
   "RA2_GameSounds/iyursec.mp3": {
     "file": "RA2_GameSounds/iyursec.mp3",
@@ -4503,7 +4503,7 @@
     "file": "RA2_GameSounds/iyursee.mp3",
     "filename": "iyursee.mp3",
     "folder": "RA2_GameSounds",
-    "transcription": "The mine is quicker than the eye."
+    "transcription": "The mind is quicker than the eye."
   },
   "RA2_GameSounds/schrlo1.mp3": {
     "file": "RA2_GameSounds/schrlo1.mp3",
@@ -4779,7 +4779,7 @@
     "file": "RA2_GameSounds/ts4.mp3",
     "filename": "ts4.mp3",
     "folder": "RA2_GameSounds",
-    "transcription": "Poor."
+    "transcription": "Four."
   },
   "RA2_GameSounds/ts5.mp3": {
     "file": "RA2_GameSounds/ts5.mp3",
@@ -4803,7 +4803,7 @@
     "file": "RA2_GameSounds/ts8.mp3",
     "filename": "ts8.mp3",
     "folder": "RA2_GameSounds",
-    "transcription": "Hey."
+    "transcription": "Eight."
   },
   "RA2_GameSounds/ts9.mp3": {
     "file": "RA2_GameSounds/ts9.mp3",
@@ -5229,13 +5229,13 @@
     "file": "RA2_GameSounds/vbledia.mp3",
     "filename": "vbledia.mp3",
     "folder": "RA2_GameSounds",
-    "transcription": "He decked, he decked!"
+    "transcription": "Eject! Eject!"
   },
   "RA2_GameSounds/vbledib.mp3": {
     "file": "RA2_GameSounds/vbledib.mp3",
     "filename": "vbledib.mp3",
     "folder": "RA2_GameSounds",
-    "transcription": "Pay it out!"
+    "transcription": "Bail out!"
   },
   "RA2_GameSounds/vbledic.mp3": {
     "file": "RA2_GameSounds/vbledic.mp3",
@@ -5277,13 +5277,13 @@
     "file": "RA2_GameSounds/vblemob.mp3",
     "filename": "vblemob.mp3",
     "folder": "RA2_GameSounds",
-    "transcription": "in transit."
+    "transcription": "In transit."
   },
   "RA2_GameSounds/vblemoc.mp3": {
     "file": "RA2_GameSounds/vblemoc.mp3",
     "filename": "vblemoc.mp3",
     "folder": "RA2_GameSounds",
-    "transcription": "calibrating airspeed."
+    "transcription": "Calibrating airspeed."
   },
   "RA2_GameSounds/vblesea.mp3": {
     "file": "RA2_GameSounds/vblesea.mp3",
@@ -5325,7 +5325,7 @@
     "file": "RA2_GameSounds/vblhata.mp3",
     "filename": "vblhata.mp3",
     "folder": "RA2_GameSounds",
-    "transcription": "Fire on site."
+    "transcription": "Fire on sight."
   },
   "RA2_GameSounds/vblhatb.mp3": {
     "file": "RA2_GameSounds/vblhatb.mp3",
@@ -5421,7 +5421,7 @@
     "file": "RA2_GameSounds/vblhmob.mp3",
     "filename": "vblhmob.mp3",
     "folder": "RA2_GameSounds",
-    "transcription": "And got you."
+    "transcription": "I got you."
   },
   "RA2_GameSounds/vblhmoc.mp3": {
     "file": "RA2_GameSounds/vblhmoc.mp3",
@@ -5433,13 +5433,13 @@
     "file": "RA2_GameSounds/vblhmod.mp3",
     "filename": "vblhmod.mp3",
     "folder": "RA2_GameSounds",
-    "transcription": "visibility clear"
+    "transcription": "Visibility clear."
   },
   "RA2_GameSounds/vblhsea.mp3": {
     "file": "RA2_GameSounds/vblhsea.mp3",
     "filename": "vblhsea.mp3",
     "folder": "RA2_GameSounds",
-    "transcription": "Needle left."
+    "transcription": "Need a lift?"
   },
   "RA2_GameSounds/vblhseb.mp3": {
     "file": "RA2_GameSounds/vblhseb.mp3",
@@ -5925,7 +5925,7 @@
     "file": "RA2_GameSounds/vgrsata.mp3",
     "filename": "vgrsata.mp3",
     "folder": "RA2_GameSounds",
-    "transcription": "Target cited."
+    "transcription": "Target sighted."
   },
   "RA2_GameSounds/vgrsatb.mp3": {
     "file": "RA2_GameSounds/vgrsatb.mp3",
@@ -6087,7 +6087,7 @@
     "file": "RA2_GameSounds/vintatc.mp3",
     "filename": "vintatc.mp3",
     "folder": "RA2_GameSounds",
-    "transcription": "We have Monradar."
+    "transcription": "We have them on radar."
   },
   "RA2_GameSounds/vintatd.mp3": {
     "file": "RA2_GameSounds/vintatd.mp3",
@@ -6111,13 +6111,13 @@
     "file": "RA2_GameSounds/vintdia.mp3",
     "filename": "vintdia.mp3",
     "folder": "RA2_GameSounds",
-    "transcription": "Hejak! Hejak!"
+    "transcription": "Eject! Eject!"
   },
   "RA2_GameSounds/vintdib.mp3": {
     "file": "RA2_GameSounds/vintdib.mp3",
     "filename": "vintdib.mp3",
     "folder": "RA2_GameSounds",
-    "transcription": "Pay him out!"
+    "transcription": "Bail out!"
   },
   "RA2_GameSounds/vintdic.mp3": {
     "file": "RA2_GameSounds/vintdic.mp3",
@@ -6243,7 +6243,7 @@
     "file": "RA2_GameSounds/vkirata.mp3",
     "filename": "vkirata.mp3",
     "folder": "RA2_GameSounds",
-    "transcription": "bombing base ready"
+    "transcription": "Bombing bays ready."
   },
   "RA2_GameSounds/vkiratb.mp3": {
     "file": "RA2_GameSounds/vkiratb.mp3",
@@ -6261,7 +6261,7 @@
     "file": "RA2_GameSounds/vkiratd.mp3",
     "filename": "vkiratd.mp3",
     "folder": "RA2_GameSounds",
-    "transcription": "Bombadiers to your stations!"
+    "transcription": "Bombardiers to your stations!"
   },
   "RA2_GameSounds/vkiratta.mp3": {
     "file": "RA2_GameSounds/vkiratta.mp3",
@@ -6351,19 +6351,19 @@
     "file": "RA2_GameSounds/vkirmoa.mp3",
     "filename": "vkirmoa.mp3",
     "folder": "RA2_GameSounds",
-    "transcription": "Setting new course"
+    "transcription": "Setting new course."
   },
   "RA2_GameSounds/vkirmob.mp3": {
     "file": "RA2_GameSounds/vkirmob.mp3",
     "filename": "vkirmob.mp3",
     "folder": "RA2_GameSounds",
-    "transcription": "Manover props engaged."
+    "transcription": "Maneuvering props engaged."
   },
   "RA2_GameSounds/vkirmoc.mp3": {
     "file": "RA2_GameSounds/vkirmoc.mp3",
     "filename": "vkirmoc.mp3",
     "folder": "RA2_GameSounds",
-    "transcription": "bearing set."
+    "transcription": "Bearing set."
   },
   "RA2_GameSounds/vkirsea.mp3": {
     "file": "RA2_GameSounds/vkirsea.mp3",
@@ -6375,7 +6375,7 @@
     "file": "RA2_GameSounds/vkirseb.mp3",
     "filename": "vkirseb.mp3",
     "folder": "RA2_GameSounds",
-    "transcription": "HACNOLLADID!"
+    "transcription": "Acknowledged!"
   },
   "RA2_GameSounds/vkirsec.mp3": {
     "file": "RA2_GameSounds/vkirsec.mp3",
