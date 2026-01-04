@@ -1,0 +1,2881 @@
+{
+  "infantry": {
+    "gi": {
+      "name": "GI",
+      "faction": "Allied",
+      "role": "basic_infantry",
+      "sounds": {
+        "select": [
+          "igiata",
+          "igiatb",
+          "igiatc",
+          "igiatd",
+          "igiate",
+          "igiatf"
+        ],
+        "select_special": [
+          "igiat1a",
+          "igiat1b",
+          "igiat1c",
+          "igiat2a",
+          "igiat2b",
+          "igiat2c",
+          "igiat2d"
+        ],
+        "move": [
+          "igimoa",
+          "igimob",
+          "igimoc",
+          "igimod",
+          "igimoe",
+          "igimof"
+        ],
+        "die": [
+          "igidia",
+          "igidib",
+          "igidic",
+          "igidid",
+          "igidie"
+        ],
+        "fear": [
+          "igifea",
+          "igifeb"
+        ],
+        "deploy": [
+          "igidepa",
+          "igidepb"
+        ]
+      },
+      "description": "Allied basic infantry unit - versatile and reliable"
+    },
+    "sea": {
+      "name": "SEAL",
+      "faction": "Allied",
+      "role": "elite_infantry",
+      "sounds": {
+        "select": [
+          "iseasea",
+          "iseaseb",
+          "iseasec",
+          "iseased"
+        ],
+        "attack": [
+          "iseaata",
+          "iseaatb",
+          "iseaatc"
+        ],
+        "attack_special": [
+          "iseaatta",
+          "iseaattb"
+        ],
+        "move": [
+          "iseamoa",
+          "iseamob",
+          "iseamoc"
+        ],
+        "die": [
+          "iseadia",
+          "iseadib",
+          "iseadic"
+        ],
+        "explosion": [
+          "iseaexa",
+          "iseaexb",
+          "iseaexc"
+        ]
+      },
+      "description": "Allied elite commando - C4 specialist"
+    },
+    "tan": {
+      "name": "Tanya",
+      "faction": "Allied",
+      "role": "hero",
+      "sounds": {
+        "select": [
+          "itansea",
+          "itanseb",
+          "itansec",
+          "itansed",
+          "itansee"
+        ],
+        "attack": [
+          "itanata",
+          "itanatb",
+          "itanatc",
+          "itanatd"
+        ],
+        "attack_special": [
+          "itanatta",
+          "itanattb"
+        ],
+        "move": [
+          "itanmoa",
+          "itanmob",
+          "itanmoc",
+          "itanmod",
+          "itanmoe",
+          "itanmof"
+        ],
+        "die": [
+          "itandia",
+          "itandib",
+          "itandic"
+        ]
+      },
+      "description": "Allied hero unit - dual pistols and C4"
+    },
+    "sni": {
+      "name": "Sniper",
+      "faction": "Allied",
+      "role": "specialist",
+      "sounds": {
+        "select": [
+          "isnisea",
+          "isniseb",
+          "isnisec",
+          "isnised"
+        ],
+        "attack": [
+          "isniata",
+          "isniatb",
+          "isniatc"
+        ],
+        "attack_special": [
+          "isniatta"
+        ],
+        "move": [
+          "isnimoa",
+          "isnimob",
+          "isnimoc",
+          "isnimod",
+          "isnimoe"
+        ],
+        "die": [
+          "isnidia",
+          "isnidib",
+          "isnidic"
+        ],
+        "fear": [
+          "isnifea",
+          "isnifeb",
+          "isnifec"
+        ]
+      },
+      "description": "Allied sniper - long range precision"
+    },
+    "spy": {
+      "name": "Spy",
+      "faction": "Allied",
+      "role": "infiltrator",
+      "sounds": {
+        "select": [
+          "ispysea",
+          "ispyseb",
+          "ispysec",
+          "ispysed"
+        ],
+        "attack": [
+          "ispyata",
+          "ispyatb",
+          "ispyatc",
+          "ispyatd"
+        ],
+        "move": [
+          "ispymob",
+          "ispymoc",
+          "ispymod",
+          "ispymoe"
+        ],
+        "die": [
+          "ispydia",
+          "ispydib",
+          "ispydic"
+        ],
+        "fear": [
+          "ispyfea",
+          "ispyfeb"
+        ]
+      },
+      "description": "Allied infiltrator - disguise and espionage"
+    },
+    "roc": {
+      "name": "Rocketeer",
+      "faction": "Allied",
+      "role": "anti_air",
+      "sounds": {
+        "select": [
+          "irocsea",
+          "irocseb",
+          "irocsec",
+          "irocsed",
+          "irocsee",
+          "irocsef",
+          "irocseg"
+        ],
+        "attack": [
+          "irocata",
+          "irocatb",
+          "irocatc",
+          "irocatd",
+          "irocate"
+        ],
+        "attack_special": [
+          "irocatta"
+        ],
+        "move": [
+          "irocmoa",
+          "irocmob",
+          "irocmoc",
+          "irocmod",
+          "irocmoe",
+          "irocmof"
+        ],
+        "die": [
+          "irocdiea"
+        ],
+        "fear": [
+          "irocfea",
+          "irocfeb",
+          "irocfec"
+        ],
+        "loop": [
+          "iroclo1",
+          "iroclo2a",
+          "iroclo2b",
+          "iroclo2c",
+          "iroclo3"
+        ],
+        "crate": [
+          "iroccraa",
+          "iroccrab"
+        ]
+      },
+      "description": "Allied flying infantry - anti-air specialist"
+    },
+    "chr": {
+      "name": "Chrono Legionnaire",
+      "faction": "Allied",
+      "role": "specialist",
+      "sounds": {
+        "select": [
+          "ichrsea",
+          "ichrseb",
+          "ichrsec",
+          "ichrsed",
+          "ichrsee"
+        ],
+        "attack": [
+          "ichrata",
+          "ichratb",
+          "ichratc",
+          "ichratd"
+        ],
+        "attack_special": [
+          "ichratta"
+        ],
+        "move": [
+          "ichrmova"
+        ],
+        "die": [
+          "ichrdia",
+          "ichrdib",
+          "ichrdic"
+        ],
+        "fear": [
+          "ichrfea",
+          "ichrfeb",
+          "ichrfec"
+        ],
+        "kill": [
+          "ichrkill"
+        ]
+      },
+      "description": "Allied chrono infantry - erases units from timeline"
+    },
+    "ena": {
+      "name": "Engineer",
+      "faction": "Allied",
+      "role": "support",
+      "sounds": {
+        "select": [
+          "ienasea",
+          "ienaseb",
+          "ienasec",
+          "ienased"
+        ],
+        "attack": [
+          "ienaata",
+          "ienaatb",
+          "ienaatc"
+        ],
+        "move": [
+          "ienamoa",
+          "ienamob",
+          "ienamoc"
+        ],
+        "die": [
+          "ienadia",
+          "ienadib",
+          "ienadic",
+          "ienadid"
+        ],
+        "fear": [
+          "ienafea",
+          "ienafeb",
+          "ienafec"
+        ],
+        "power": [
+          "ienapow"
+        ]
+      },
+      "description": "Allied engineer - captures and repairs buildings"
+    },
+    "cfa": {
+      "name": "Civilian Female",
+      "faction": "Civilian",
+      "role": "civilian",
+      "sounds": {
+        "select": [
+          "icfasea",
+          "icfaseb",
+          "icfasec",
+          "icfased"
+        ],
+        "attack": [
+          "icfaata",
+          "icfaatb",
+          "icfaatc",
+          "icfaatd"
+        ],
+        "move": [
+          "icfamoa",
+          "icfamob",
+          "icfamoc",
+          "icfamod"
+        ],
+        "die": [
+          "icfadia",
+          "icfadib",
+          "icfadic"
+        ],
+        "fear": [
+          "icfafea",
+          "icfafeb",
+          "icfafec"
+        ]
+      },
+      "description": "Civilian female - office worker type"
+    },
+    "cia": {
+      "name": "Civilian Male",
+      "faction": "Civilian",
+      "role": "civilian",
+      "sounds": {
+        "select": [
+          "iciasea",
+          "iciaseb",
+          "iciasec"
+        ],
+        "attack": [
+          "iciaata",
+          "iciaatb",
+          "iciaatc"
+        ],
+        "move": [
+          "iciamoa",
+          "iciamob",
+          "iciamoc"
+        ],
+        "die": [
+          "iciadia",
+          "iciadib",
+          "iciadic",
+          "iciadid"
+        ],
+        "fear": [
+          "iciafea",
+          "iciafeb",
+          "iciafec"
+        ]
+      },
+      "description": "Civilian male - office worker type"
+    },
+    "con": {
+      "name": "Conscript",
+      "faction": "Soviet",
+      "role": "basic_infantry",
+      "sounds": {
+        "select": [
+          "iconsea",
+          "iconseb",
+          "iconsec"
+        ],
+        "attack": [
+          "iconata",
+          "iconatb",
+          "iconatc",
+          "iconatd"
+        ],
+        "attack_special": [
+          "iconatta",
+          "iconattb",
+          "iconattc",
+          "iconattd",
+          "iconatte"
+        ],
+        "move": [
+          "iconmoa",
+          "iconmob",
+          "iconmoc",
+          "iconmod"
+        ],
+        "die": [
+          "icondia",
+          "icondib",
+          "icondic",
+          "icondid",
+          "icondie"
+        ],
+        "fear": [
+          "iconfea",
+          "iconfeb",
+          "iconfec"
+        ]
+      },
+      "description": "Soviet basic infantry - cheap and numerous"
+    },
+    "fla": {
+      "name": "Flak Trooper",
+      "faction": "Soviet",
+      "role": "anti_air",
+      "sounds": {
+        "select": [
+          "iflasea",
+          "iflaseb",
+          "iflasec",
+          "iflased"
+        ],
+        "attack": [
+          "iflaata",
+          "iflaatb",
+          "iflaatc",
+          "iflaatd"
+        ],
+        "move": [
+          "iflamoa",
+          "iflamob",
+          "iflamoc",
+          "iflamod"
+        ],
+        "die": [
+          "ifladia",
+          "ifladib",
+          "ifladic",
+          "ifladid",
+          "ifladie"
+        ],
+        "fear": [
+          "iflafea",
+          "iflafeb",
+          "iflafec",
+          "iflafed"
+        ]
+      },
+      "description": "Soviet anti-air infantry"
+    },
+    "tes": {
+      "name": "Tesla Trooper",
+      "faction": "Soviet",
+      "role": "specialist",
+      "sounds": {
+        "select": [
+          "itessea",
+          "itessec",
+          "itessed",
+          "itessee"
+        ],
+        "attack": [
+          "itesat2a",
+          "itesat2b",
+          "itesata",
+          "itesatb",
+          "itesatc",
+          "itesatd",
+          "itesate"
+        ],
+        "attack_special": [
+          "itesatta"
+        ],
+        "move": [
+          "itesmoa",
+          "itesmob",
+          "itesmoc",
+          "itesmod",
+          "itesmoe",
+          "itesmof"
+        ],
+        "die": [
+          "itesdia",
+          "itesdib",
+          "itesdic",
+          "itesdid"
+        ],
+        "fear": [
+          "itesfea",
+          "itesfeb",
+          "itesfec"
+        ],
+        "charge": [
+          "iteschaa"
+        ]
+      },
+      "description": "Soviet tesla infantry - electrical attacks"
+    },
+    "des": {
+      "name": "Desolator",
+      "faction": "Soviet",
+      "role": "specialist",
+      "sounds": {
+        "select": [
+          "idessea",
+          "idesseb",
+          "idessec",
+          "idessed",
+          "idessee"
+        ],
+        "attack": [
+          "idesata",
+          "idesatb",
+          "idesatc",
+          "idesatd",
+          "idesate",
+          "idesatf"
+        ],
+        "attack_special": [
+          "idesat1a",
+          "idesat2a"
+        ],
+        "move": [
+          "idesmoa",
+          "idesmob",
+          "idesmoc",
+          "idesmod",
+          "idesmoe"
+        ],
+        "die": [
+          "idesdia",
+          "idesdib",
+          "idesdic"
+        ]
+      },
+      "description": "Soviet radiation trooper - area denial"
+    },
+    "ter": {
+      "name": "Terrorist",
+      "faction": "Soviet",
+      "role": "suicide",
+      "sounds": {
+        "select": [
+          "itersea",
+          "iterseb",
+          "itersec"
+        ],
+        "attack": [
+          "iterata",
+          "iteratb",
+          "iteratc",
+          "iteratd"
+        ],
+        "move": [
+          "itermoa",
+          "itermob",
+          "itermoc"
+        ],
+        "die": [
+          "iterdia",
+          "iterdib",
+          "iterdic"
+        ],
+        "fear": [
+          "iterfea",
+          "iterfeb",
+          "iterfec"
+        ]
+      },
+      "description": "Soviet suicide bomber"
+    },
+    "cra": {
+      "name": "Crazy Ivan",
+      "faction": "Soviet",
+      "role": "demolition",
+      "sounds": {
+        "select": [
+          "icrasea",
+          "icraseb",
+          "icrasec",
+          "icrased",
+          "icrasee",
+          "icrasef",
+          "icraseg"
+        ],
+        "attack": [
+          "icraata",
+          "icraatb",
+          "icraatc",
+          "icraatd"
+        ],
+        "attack_special": [
+          "icraatta"
+        ],
+        "move": [
+          "icramoa",
+          "icramob",
+          "icramoc",
+          "icramod",
+          "icramof"
+        ],
+        "die": [
+          "icradia",
+          "icradib"
+        ],
+        "loop": [
+          "icraloop"
+        ]
+      },
+      "description": "Soviet demolitions expert - plants bombs"
+    },
+    "ens": {
+      "name": "Engineer",
+      "faction": "Soviet",
+      "role": "support",
+      "sounds": {
+        "select": [
+          "ienssea",
+          "iensseb",
+          "ienssec"
+        ],
+        "attack": [
+          "iensata",
+          "iensatb"
+        ],
+        "move": [
+          "iensmoa",
+          "iensmob",
+          "iensmoc"
+        ],
+        "die": [
+          "iensdia",
+          "iensdib",
+          "iensdic"
+        ],
+        "fear": [
+          "iensfea",
+          "iensfeb",
+          "iensfec"
+        ],
+        "power": [
+          "ienspow"
+        ]
+      },
+      "description": "Soviet engineer - captures and repairs buildings"
+    },
+    "cfs": {
+      "name": "Civilian Female",
+      "faction": "Civilian",
+      "role": "civilian",
+      "sounds": {
+        "select": [
+          "icfssea",
+          "icfsseb",
+          "icfssec",
+          "icfssed",
+          "icfssee"
+        ],
+        "attack": [
+          "icfsata",
+          "icfsatb",
+          "icfsatc",
+          "icfsatd"
+        ],
+        "move": [
+          "icfsmoa",
+          "icfsmob",
+          "icfsmoc",
+          "icfsmod"
+        ],
+        "die": [
+          "icfsdia",
+          "icfsdib",
+          "icfsdic"
+        ],
+        "fear": [
+          "icfsfea",
+          "icfsfeb"
+        ]
+      },
+      "description": "Civilian female - Soviet version"
+    },
+    "cis": {
+      "name": "Civilian Male",
+      "faction": "Civilian",
+      "role": "civilian",
+      "sounds": {
+        "select": [
+          "icissea",
+          "icisseb",
+          "icissec",
+          "icissed"
+        ],
+        "attack": [
+          "icisata",
+          "icisatb",
+          "icisatc"
+        ],
+        "move": [
+          "icismoa",
+          "icismob",
+          "icismoc"
+        ],
+        "die": [
+          "icisdia",
+          "icisdib",
+          "icisdic"
+        ],
+        "fear": [
+          "icisfea",
+          "icisfeb",
+          "icisfec"
+        ]
+      },
+      "description": "Civilian male - Soviet version"
+    },
+    "yur": {
+      "name": "Yuri",
+      "faction": "Yuri",
+      "role": "hero",
+      "sounds": {
+        "select": [
+          "iyursea",
+          "iyurseb",
+          "iyursec",
+          "iyursed",
+          "iyursee"
+        ],
+        "attack": [
+          "iyurata",
+          "iyuratb",
+          "iyuratc",
+          "iyuratd",
+          "iyurate"
+        ],
+        "attack_special": [
+          "iyurat1a",
+          "iyurat2a"
+        ],
+        "move": [
+          "iyurmoa",
+          "iyurmob",
+          "iyurmoc",
+          "iyurmod"
+        ],
+        "die": [
+          "iyurdia",
+          "iyurdib",
+          "iyurdic"
+        ]
+      },
+      "description": "Yuri hero - mind control specialist"
+    },
+    "dog": {
+      "name": "Attack Dog",
+      "faction": "Soviet",
+      "role": "scout",
+      "sounds": {
+        "select": [
+          "idogsela"
+        ],
+        "attack": [
+          "idogatca"
+        ],
+        "attack_special": [
+          "idogatta"
+        ],
+        "move": [
+          "idogmova"
+        ],
+        "die": [
+          "idogdiea"
+        ],
+        "fear": [
+          "idogfea",
+          "idogfeb",
+          "idogfec"
+        ]
+      },
+      "description": "Soviet attack dog - anti-infantry scout"
+    },
+    "civ1": {
+      "name": "Civilian",
+      "faction": "Civilian",
+      "role": "civilian",
+      "sounds": {
+        "die": [
+          "iciv1dia",
+          "iciv1dib",
+          "iciv1dic"
+        ],
+        "attack": [
+          "icivatta",
+          "icivattb"
+        ]
+      },
+      "description": "Generic civilian death sounds"
+    },
+    "civ2": {
+      "name": "Civilian",
+      "faction": "Civilian",
+      "role": "civilian",
+      "sounds": {
+        "die": [
+          "iciv2dia",
+          "iciv2dib",
+          "iciv2dic",
+          "iciv2did"
+        ]
+      },
+      "description": "Generic civilian death sounds variant"
+    }
+  },
+  "vehicles": {
+    "gra": {
+      "name": "Grizzly Tank",
+      "faction": "Allied",
+      "role": "main_battle_tank",
+      "sounds": {
+        "select": [
+          "vgrasea",
+          "vgraseb",
+          "vgrasec",
+          "vgrased",
+          "vgrasee"
+        ],
+        "attack": [
+          "vgraata",
+          "vgraatb",
+          "vgraatc",
+          "vgraatd",
+          "vgraate"
+        ],
+        "move": [
+          "vgramoa",
+          "vgramob",
+          "vgramoc",
+          "vgramod",
+          "vgramoe",
+          "vgramof"
+        ]
+      },
+      "description": "Allied main battle tank"
+    },
+    "gri": {
+      "name": "Grizzly Tank Effects",
+      "faction": "Allied",
+      "role": "main_battle_tank",
+      "sounds": {
+        "attack": [
+          "vgriatta",
+          "vgriattb",
+          "vgriattc"
+        ],
+        "status": [
+          "vgristaa",
+          "vgristab",
+          "vgristac"
+        ]
+      },
+      "description": "Additional Grizzly tank sound effects"
+    },
+    "ifv": {
+      "name": "IFV",
+      "faction": "Allied",
+      "role": "transport",
+      "sounds": {
+        "attack": [
+          "vifvat2a",
+          "vifvat2b",
+          "vifvat2c"
+        ],
+        "attack_special": [
+          "vifvatta"
+        ],
+        "status": [
+          "vifvstaa",
+          "vifvstab",
+          "vifvstac"
+        ],
+        "repair": [
+          "vifvrepa"
+        ],
+        "transform": [
+          "vifvtran"
+        ]
+      },
+      "description": "Allied infantry fighting vehicle - transforms with garrisoned units"
+    },
+    "mir": {
+      "name": "Mirage Tank",
+      "faction": "Allied",
+      "role": "stealth_tank",
+      "sounds": {
+        "attack": [
+          "vmirat2a"
+        ],
+        "attack_special": [
+          "vmiratta"
+        ],
+        "status": [
+          "vmirstaa",
+          "vmirstab",
+          "vmirstac"
+        ]
+      },
+      "description": "Allied stealth tank - disguises as trees"
+    },
+    "dem": {
+      "name": "Demolition Truck",
+      "faction": "Allied",
+      "role": "suicide",
+      "sounds": {
+        "select": [
+          "vdemsea",
+          "vdemseb",
+          "vdemsec",
+          "vdemsed"
+        ],
+        "attack": [
+          "vdemata",
+          "vdematb",
+          "vdematc",
+          "vdematd",
+          "vdemate"
+        ],
+        "move": [
+          "vdemmoa",
+          "vdemmob",
+          "vdemmoc"
+        ],
+        "die": [
+          "vdemdiea"
+        ],
+        "status": [
+          "vdemstaa",
+          "vdemstab",
+          "vdemstac"
+        ]
+      },
+      "description": "Allied demolition truck - mobile bomb"
+    },
+    "dol": {
+      "name": "Dolphin",
+      "faction": "Allied",
+      "role": "naval_scout",
+      "sounds": {
+        "select": [
+          "vdolsela",
+          "vdolselb"
+        ],
+        "attack": [
+          "vdolatca",
+          "vdolatcb",
+          "vdolatcc"
+        ],
+        "attack_special": [
+          "vdolatta"
+        ],
+        "move": [
+          "vdolmova",
+          "vdolmovb"
+        ],
+        "die": [
+          "vdoldiea",
+          "vdoldieb"
+        ]
+      },
+      "description": "Allied naval scout - anti-submarine"
+    },
+    "des": {
+      "name": "Destroyer",
+      "faction": "Allied",
+      "role": "naval_combat",
+      "sounds": {
+        "attack": [
+          "vdesatta",
+          "vdesattb"
+        ],
+        "status": [
+          "vdesstaa",
+          "vdesstab"
+        ]
+      },
+      "description": "Allied destroyer - naval combat ship"
+    },
+    "aeg": {
+      "name": "Aegis Cruiser",
+      "faction": "Allied",
+      "role": "anti_air_naval",
+      "sounds": {
+        "attack": [
+          "vaegatta",
+          "vaegattb"
+        ],
+        "status": [
+          "vaegstaa",
+          "vaegstab"
+        ]
+      },
+      "description": "Allied anti-air cruiser"
+    },
+    "acc": {
+      "name": "Aircraft Carrier",
+      "faction": "Allied",
+      "role": "naval_support",
+      "sounds": {
+        "status": [
+          "vaccstaa",
+          "vaccstab"
+        ]
+      },
+      "description": "Allied aircraft carrier"
+    },
+    "hor": {
+      "name": "Hornet",
+      "faction": "Allied",
+      "role": "aircraft",
+      "sounds": {
+        "die": [
+          "vhordiea",
+          "vhordieb"
+        ],
+        "land": [
+          "vhorlana",
+          "vhorlanb"
+        ],
+        "takeoff": [
+          "vhortaka",
+          "vhortakb"
+        ]
+      },
+      "description": "Allied carrier-based aircraft"
+    },
+    "lan": {
+      "name": "Landing Craft",
+      "faction": "Allied",
+      "role": "naval_transport",
+      "sounds": {
+        "status": [
+          "vlanstaa",
+          "vlanstab",
+          "vlanstac"
+        ]
+      },
+      "description": "Allied naval transport"
+    },
+    "rhi": {
+      "name": "Rhino Tank",
+      "faction": "Soviet",
+      "role": "main_battle_tank",
+      "sounds": {
+        "attack": [
+          "vrhiatta",
+          "vrhiattb",
+          "vrhiattc",
+          "vrhiattd"
+        ],
+        "status": [
+          "vrhistaa",
+          "vrhistab",
+          "vrhistac",
+          "vrhistad"
+        ]
+      },
+      "description": "Soviet main battle tank"
+    },
+    "grs": {
+      "name": "Rhino Tank Effects",
+      "faction": "Soviet",
+      "role": "main_battle_tank",
+      "sounds": {
+        "select": [
+          "vgrssea",
+          "vgrsseb",
+          "vgrssec"
+        ],
+        "attack": [
+          "vgrsata",
+          "vgrsatb",
+          "vgrsatc",
+          "vgrsatd"
+        ],
+        "move": [
+          "vgrsmoa",
+          "vgrsmob",
+          "vgrsmoc"
+        ]
+      },
+      "description": "Additional Rhino tank sound effects"
+    },
+    "fla": {
+      "name": "Flak Track",
+      "faction": "Soviet",
+      "role": "anti_air_transport",
+      "sounds": {
+        "attack": [
+          "vflaat1a",
+          "vflaat1b",
+          "vflaat2a",
+          "vflaat2b",
+          "vflaat2c",
+          "vflaat2d"
+        ],
+        "status": [
+          "vflastaa",
+          "vflastab",
+          "vflastac",
+          "vflastad"
+        ]
+      },
+      "description": "Soviet anti-air transport"
+    },
+    "tes": {
+      "name": "Tesla Tank",
+      "faction": "Soviet",
+      "role": "specialist_tank",
+      "sounds": {
+        "attack": [
+          "vtesatta",
+          "vtesattb"
+        ],
+        "status": [
+          "vtesstaa",
+          "vtesstab"
+        ]
+      },
+      "description": "Soviet tesla tank - electrical attacks"
+    },
+    "v3l": {
+      "name": "V3 Rocket Launcher",
+      "faction": "Soviet",
+      "role": "artillery",
+      "sounds": {
+        "attack": [
+          "vv3latta",
+          "vv3lattb"
+        ],
+        "status": [
+          "vv3lstaa",
+          "vv3lstab",
+          "vv3lstac"
+        ]
+      },
+      "description": "Soviet long-range rocket artillery"
+    },
+    "ter": {
+      "name": "Terror Drone",
+      "faction": "Soviet",
+      "role": "anti_vehicle",
+      "sounds": {
+        "select": [
+          "vtersela",
+          "vterselb"
+        ],
+        "attack": [
+          "vteratta"
+        ],
+        "move": [
+          "vtermova"
+        ],
+        "die": [
+          "vterdiea",
+          "vterdieb"
+        ],
+        "loop": [
+          "vterlo1a",
+          "vterlo1b",
+          "vterlo1c",
+          "vterlo2a",
+          "vterlo2b",
+          "vterlo2c",
+          "vterlo3"
+        ]
+      },
+      "description": "Soviet terror drone - infiltrates and destroys vehicles"
+    },
+    "was": {
+      "name": "Dreadnought",
+      "faction": "Soviet",
+      "role": "naval_artillery",
+      "sounds": {
+        "select": [
+          "vwassea",
+          "vwasseb",
+          "vwassec"
+        ],
+        "attack": [
+          "vwasata",
+          "vwasatb",
+          "vwasatc"
+        ],
+        "move": [
+          "vwasmoa",
+          "vwasmob",
+          "vwasmoc",
+          "vwasmod"
+        ]
+      },
+      "description": "Soviet dreadnought - naval missile platform"
+    },
+    "waa": {
+      "name": "Destroyer",
+      "faction": "Allied",
+      "role": "naval_combat",
+      "sounds": {
+        "select": [
+          "vwaasea",
+          "vwaaseb",
+          "vwaasec",
+          "vwaased"
+        ],
+        "attack": [
+          "vwaaata",
+          "vwaaatb",
+          "vwaaatc"
+        ],
+        "move": [
+          "vwaamoa",
+          "vwaamob",
+          "vwaamoc",
+          "vwaamod",
+          "vwaamoe"
+        ]
+      },
+      "description": "Allied destroyer (alternative sounds)"
+    },
+    "war": {
+      "name": "War Miner",
+      "faction": "Soviet",
+      "role": "harvester",
+      "sounds": {
+        "attack": [
+          "vwaratta",
+          "vwarattb"
+        ]
+      },
+      "description": "Soviet war miner - armed ore collector"
+    },
+    "sea": {
+      "name": "Sea Scorpion",
+      "faction": "Soviet",
+      "role": "anti_air_naval",
+      "sounds": {
+        "status": [
+          "vseastaa",
+          "vseastab",
+          "vseastac",
+          "vseastad"
+        ]
+      },
+      "description": "Soviet anti-air naval unit"
+    },
+    "sub": {
+      "name": "Typhoon Attack Sub",
+      "faction": "Soviet",
+      "role": "submarine",
+      "sounds": {
+        "attack": [
+          "vsubatta"
+        ]
+      },
+      "description": "Soviet attack submarine"
+    },
+    "mcv": {
+      "name": "MCV",
+      "faction": "Both",
+      "role": "construction",
+      "sounds": {
+        "status": [
+          "vmcvstaa"
+        ]
+      },
+      "description": "Mobile construction vehicle - deploys into construction yard"
+    },
+    "squ": {
+      "name": "Giant Squid",
+      "faction": "Soviet",
+      "role": "naval_special",
+      "sounds": {
+        "select": [
+          "vsqusela"
+        ],
+        "attack": [
+          "vsquat1a"
+        ],
+        "move": [
+          "vsqumova",
+          "vsqumovb"
+        ],
+        "die": [
+          "vsqudiea"
+        ]
+      },
+      "description": "Soviet giant squid - grabs and crushes ships"
+    },
+    "ble": {
+      "name": "Black Eagle",
+      "faction": "Soviet",
+      "role": "fighter",
+      "sounds": {
+        "select": [
+          "vblesea",
+          "vbleseb",
+          "vblesec",
+          "vblesed",
+          "vblesee",
+          "vblesef"
+        ],
+        "attack": [
+          "vbleata",
+          "vbleatb",
+          "vbleatc"
+        ],
+        "attack_special": [
+          "vbleatta",
+          "vbleattb"
+        ],
+        "move": [
+          "vblemoa",
+          "vblemob",
+          "vblemoc"
+        ],
+        "die": [
+          "vbledia",
+          "vbledib",
+          "vbledic",
+          "vbledid",
+          "vbledie"
+        ],
+        "die_special": [
+          "vblediea",
+          "vbledieb"
+        ],
+        "clear": [
+          "vblecl1a",
+          "vblecl1b",
+          "vblecl1c",
+          "vblecl3a",
+          "vblecl3b",
+          "vblecl3c"
+        ]
+      },
+      "description": "Soviet advanced fighter jet"
+    },
+    "blh": {
+      "name": "Blackhawk",
+      "faction": "Allied",
+      "role": "transport_helicopter",
+      "sounds": {
+        "select": [
+          "vblhsea",
+          "vblhseb",
+          "vblhsec",
+          "vblhsed"
+        ],
+        "attack": [
+          "vblhata",
+          "vblhatb",
+          "vblhatc",
+          "vblhatd"
+        ],
+        "attack_special": [
+          "vblhatta",
+          "vblhattb"
+        ],
+        "move": [
+          "vblhmoa",
+          "vblhmob",
+          "vblhmoc",
+          "vblhmod"
+        ],
+        "die": [
+          "vblhdia",
+          "vblhdib",
+          "vblhdic"
+        ],
+        "die_special": [
+          "vblhdiea"
+        ],
+        "loop": [
+          "vblhlo1",
+          "vblhlo2a",
+          "vblhlo2b",
+          "vblhlo2c",
+          "vblhlo3"
+        ]
+      },
+      "description": "Allied transport helicopter"
+    },
+    "int": {
+      "name": "Harrier",
+      "faction": "Allied",
+      "role": "fighter",
+      "sounds": {
+        "select": [
+          "vintsea",
+          "vintseb",
+          "vintsec",
+          "vintsed"
+        ],
+        "attack": [
+          "vintata",
+          "vintatb",
+          "vintatc",
+          "vintatd",
+          "vintate"
+        ],
+        "attack_special": [
+          "vintatta"
+        ],
+        "move": [
+          "vintmoa",
+          "vintmob",
+          "vintmoc",
+          "vintmod"
+        ],
+        "die": [
+          "vintdia",
+          "vintdib",
+          "vintdic"
+        ],
+        "die_special": [
+          "vintdiea",
+          "vintdieb"
+        ],
+        "dna": [
+          "vintdna"
+        ],
+        "loop": [
+          "vintlo1a",
+          "vintlo1b",
+          "vintlo1c",
+          "vintlo2a",
+          "vintlo2b",
+          "vintlo2c",
+          "vintlo3"
+        ],
+        "upgrade": [
+          "vintupa"
+        ]
+      },
+      "description": "Allied harrier jet"
+    },
+    "kir": {
+      "name": "Kirov Airship",
+      "faction": "Soviet",
+      "role": "bomber",
+      "sounds": {
+        "select": [
+          "vkirsea",
+          "vkirseb",
+          "vkirsec",
+          "vkirsed"
+        ],
+        "attack": [
+          "vkirata",
+          "vkiratb",
+          "vkiratc",
+          "vkiratd"
+        ],
+        "attack_special": [
+          "vkiratta"
+        ],
+        "move": [
+          "vkirmoa",
+          "vkirmob",
+          "vkirmoc"
+        ],
+        "die": [
+          "vkirdia",
+          "vkirdib",
+          "vkirdic",
+          "vkirdid"
+        ],
+        "die_special": [
+          "vkirdiea"
+        ],
+        "loop": [
+          "vkirlo1",
+          "vkirlo2a",
+          "vkirlo2b",
+          "vkirlo2c",
+          "vkirlo3"
+        ],
+        "bomb": [
+          "vkirbo2a",
+          "vkirbo2b"
+        ],
+        "crate": [
+          "vkircraa"
+        ]
+      },
+      "description": "Soviet heavy bomber airship"
+    },
+    "apo": {
+      "name": "Apocalypse Tank",
+      "faction": "Soviet",
+      "role": "heavy_tank",
+      "sounds": {
+        "attack": [
+          "vapoat1a",
+          "vapoat2a",
+          "vapoat2b",
+          "vapoat2c"
+        ],
+        "status": [
+          "vapostaa",
+          "vapostab",
+          "vapostac"
+        ]
+      },
+      "description": "Soviet heavy assault tank - dual cannons and anti-air missiles"
+    },
+    "aircra": {
+      "name": "Aircraft Crash",
+      "faction": "Generic",
+      "role": "effect",
+      "sounds": {
+        "crash": [
+          "vaircraa",
+          "vaircrab",
+          "vaircrac"
+        ]
+      },
+      "description": "Generic aircraft crash sounds"
+    },
+    "nav": {
+      "name": "Naval Upgrade",
+      "faction": "Generic",
+      "role": "effect",
+      "sounds": {
+        "upgrade": [
+          "vnavupa"
+        ]
+      },
+      "description": "Naval unit upgrade sound"
+    },
+    "osp": {
+      "name": "Osprey",
+      "faction": "Allied",
+      "role": "transport",
+      "sounds": {
+        "attack": [
+          "vospatta"
+        ],
+        "die": [
+          "vospdiea"
+        ],
+        "land": [
+          "vosplana"
+        ],
+        "status": [
+          "vospstaa"
+        ]
+      },
+      "description": "Allied transport aircraft"
+    },
+    "pri": {
+      "name": "Prism Tank",
+      "faction": "Allied",
+      "role": "specialist_tank",
+      "sounds": {
+        "attack": [
+          "vpriatta"
+        ],
+        "status": [
+          "vpristaa",
+          "vpristab",
+          "vpristac"
+        ]
+      },
+      "description": "Allied prism tank - laser weapon"
+    },
+    "tad": {
+      "name": "Tadpole",
+      "faction": "Generic",
+      "role": "effect",
+      "sounds": {
+        "attack": [
+          "vtadatta",
+          "vtadattb",
+          "vtadattc"
+        ],
+        "status": [
+          "vtadstaa",
+          "vtadstab"
+        ]
+      },
+      "description": "Generic vehicle sound effects"
+    },
+    "dre": {
+      "name": "Dreadnought",
+      "faction": "Soviet",
+      "role": "naval_artillery",
+      "sounds": {
+        "attack": [
+          "vdreatta",
+          "vdreattb"
+        ],
+        "status": [
+          "vdrestaa",
+          "vdrestab",
+          "vdrestac"
+        ]
+      },
+      "description": "Soviet dreadnought alternative sounds"
+    },
+    "arm": {
+      "name": "Armored Vehicle",
+      "faction": "Generic",
+      "role": "transport",
+      "sounds": {
+        "attack": [
+          "varmatta",
+          "varmattb"
+        ]
+      },
+      "description": "Generic armored vehicle sounds"
+    },
+    "chr": {
+      "name": "Chrono Miner",
+      "faction": "Allied",
+      "role": "harvester",
+      "sounds": {
+        "teleport": [
+          "vchrtele"
+        ]
+      },
+      "description": "Allied chrono miner - teleporting ore collector"
+    },
+    "ore": {
+      "name": "Ore Harvester",
+      "faction": "Generic",
+      "role": "harvester",
+      "sounds": {
+        "harvest": [
+          "vorehara"
+        ]
+      },
+      "description": "Generic ore harvester sounds"
+    },
+    "gen": {
+      "name": "Generic Vehicle",
+      "faction": "Generic",
+      "role": "effect",
+      "sounds": {
+        "die": [
+          "vgendiea",
+          "vgendieb",
+          "vgendiec",
+          "vgendied",
+          "vgendiee",
+          "vgendief"
+        ]
+      },
+      "description": "Generic vehicle death sounds"
+    }
+  },
+  "buildings": {
+    "aoc": {
+      "name": "Flak Cannon",
+      "faction": "Soviet",
+      "role": "defense",
+      "sounds": {
+        "attack": [
+          "baocatta",
+          "baocattb",
+          "baocattc"
+        ]
+      },
+      "description": "Soviet anti-aircraft defense"
+    },
+    "fla": {
+      "name": "Flak Cannon",
+      "faction": "Soviet",
+      "role": "defense",
+      "sounds": {
+        "attack": [
+          "bflaatta",
+          "bflaattb",
+          "bflaattc",
+          "bflaattd"
+        ]
+      },
+      "description": "Soviet flak cannon defense"
+    },
+    "sen": {
+      "name": "Sentry Gun",
+      "faction": "Allied",
+      "role": "defense",
+      "sounds": {
+        "attack": [
+          "bsenatta",
+          "bsenattb",
+          "bsenattc",
+          "bsenattd"
+        ]
+      },
+      "description": "Allied sentry gun defense"
+    },
+    "pil": {
+      "name": "Pillbox",
+      "faction": "Allied",
+      "role": "defense",
+      "sounds": {
+        "attack": [
+          "bpilatta",
+          "bpilattb",
+          "bpilattc",
+          "bpilattd"
+        ]
+      },
+      "description": "Allied pillbox defense"
+    },
+    "tes": {
+      "name": "Tesla Coil",
+      "faction": "Soviet",
+      "role": "defense",
+      "sounds": {
+        "attack": [
+          "btesat1a",
+          "btesat2a"
+        ],
+        "power": [
+          "btespow"
+        ]
+      },
+      "description": "Soviet tesla coil defense"
+    },
+    "pri": {
+      "name": "Prism Tower",
+      "faction": "Allied",
+      "role": "defense",
+      "sounds": {
+        "attack": [
+          "bpriat1a"
+        ],
+        "power": [
+          "bpripow"
+        ]
+      },
+      "description": "Allied prism tower defense"
+    },
+    "psy": {
+      "name": "Psychic Tower",
+      "faction": "Yuri",
+      "role": "defense",
+      "sounds": {
+        "detect": [
+          "bpsydet"
+        ],
+        "die": [
+          "bpsydiea"
+        ]
+      },
+      "description": "Yuri psychic tower defense"
+    },
+    "gra": {
+      "name": "Grand Cannon",
+      "faction": "Allied",
+      "role": "defense",
+      "sounds": {
+        "attack": [
+          "bgraatta"
+        ],
+        "loop": [
+          "bgralo1",
+          "bgralo2a",
+          "bgralo2b",
+          "bgralo3"
+        ]
+      },
+      "description": "Allied grand cannon - French defense"
+    },
+    "oil": {
+      "name": "Oil Derrick",
+      "faction": "Neutral",
+      "role": "resource",
+      "sounds": {
+        "loop": [
+          "boillo1",
+          "boillo2a",
+          "boillo2b",
+          "boillo2c",
+          "boillo3"
+        ]
+      },
+      "description": "Neutral oil derrick - capturable resource"
+    },
+    "ore": {
+      "name": "Ore Refinery",
+      "faction": "Both",
+      "role": "economy",
+      "sounds": {
+        "refine": [
+          "borerefa"
+        ]
+      },
+      "description": "Ore refinery - processes ore"
+    },
+    "pow": {
+      "name": "Power Plant",
+      "faction": "Generic",
+      "role": "power",
+      "sounds": {
+        "die": [
+          "bpowdiea",
+          "bpowdieb"
+        ]
+      },
+      "description": "Generic power plant"
+    },
+    "gen": {
+      "name": "Generic Building",
+      "faction": "Generic",
+      "role": "structure",
+      "sounds": {
+        "die": [
+          "bgendiea",
+          "bgendieb",
+          "bgendiec",
+          "bgendied",
+          "bgendiee",
+          "bgendief"
+        ]
+      },
+      "description": "Generic building death sounds"
+    },
+    "met": {
+      "name": "Metal Structure",
+      "faction": "Generic",
+      "role": "structure",
+      "sounds": {
+        "damage": [
+          "bmetdama",
+          "bmetdamb",
+          "bmetdamc"
+        ]
+      },
+      "description": "Metal structure damage sounds"
+    },
+    "par": {
+      "name": "Paratrooper",
+      "faction": "Generic",
+      "role": "reinforcement",
+      "sounds": {
+        "attack": [
+          "bparatta"
+        ]
+      },
+      "description": "Paratrooper drop sound"
+    },
+    "pat": {
+      "name": "Patriot Missile",
+      "faction": "Allied",
+      "role": "defense",
+      "sounds": {
+        "attack": [
+          "bpatatta"
+        ]
+      },
+      "description": "Allied patriot missile defense"
+    },
+    "clo": {
+      "name": "Cloning Vat",
+      "faction": "Yuri",
+      "role": "production",
+      "sounds": {
+        "vat": [
+          "bclovata"
+        ]
+      },
+      "description": "Yuri cloning vat"
+    },
+    "spy": {
+      "name": "Spy Satellite",
+      "faction": "Allied",
+      "role": "support",
+      "sounds": {
+        "true": [
+          "bspyon"
+        ],
+        "false": [
+          "bspyof"
+        ]
+      },
+      "description": "Allied spy satellite uplink"
+    }
+  },
+  "ambient": {
+    "bir": {
+      "name": "Birds",
+      "sounds": {
+        "chirp": [
+          "abirj01a",
+          "abirj01b",
+          "abirj01c",
+          "abirj01d",
+          "abirj01e",
+          "abirj01f"
+        ],
+        "chirp2": [
+          "abirj02a",
+          "abirj02b",
+          "abirj02c",
+          "abirj02d",
+          "abirj02e",
+          "abirj02f",
+          "abirj02g"
+        ],
+        "misc": [
+          "abirm01a",
+          "abirm01b",
+          "abirm01c"
+        ],
+        "peep": [
+          "abirp01a",
+          "abirp01b",
+          "abirp01c",
+          "abirp01d",
+          "abirp01e"
+        ],
+        "tweet": [
+          "abirt01a",
+          "abirt01b",
+          "abirt01c",
+          "abirt01d",
+          "abirt01e",
+          "abirt01f",
+          "abirt01g",
+          "abirt02a",
+          "abirt02b"
+        ]
+      },
+      "description": "Bird chirping and tweeting sounds"
+    },
+    "cri": {
+      "name": "Crickets",
+      "sounds": {
+        "chirp": [
+          "acri01a",
+          "acri01b",
+          "acri01c",
+          "acri02a",
+          "acri02b",
+          "acri02c",
+          "acri02d",
+          "acri02e",
+          "acri02f"
+        ]
+      },
+      "description": "Cricket chirping sounds"
+    },
+    "gul": {
+      "name": "Seagulls",
+      "sounds": {
+        "call": [
+          "agul01a",
+          "agul01b",
+          "agul01c",
+          "agul01d",
+          "agul01e"
+        ],
+        "call2": [
+          "agul02a",
+          "agul02b",
+          "agul02c",
+          "agul02d",
+          "agul02e",
+          "agul02f",
+          "agul02g",
+          "agul02h",
+          "agul02i",
+          "agul02j"
+        ]
+      },
+      "description": "Seagull calling sounds"
+    },
+    "owl": {
+      "name": "Owls",
+      "sounds": {
+        "hoot": [
+          "aowl01a",
+          "aowl01b",
+          "aowl01c",
+          "aowl01d",
+          "aowl01e",
+          "aowl01f"
+        ]
+      },
+      "description": "Owl hooting sounds"
+    },
+    "riv": {
+      "name": "River",
+      "sounds": {
+        "flow": [
+          "ariv01a",
+          "ariv01b",
+          "ariv01c"
+        ]
+      },
+      "description": "River and water flowing sounds"
+    },
+    "tra": {
+      "name": "Traffic",
+      "sounds": {
+        "noise": [
+          "atra01a",
+          "atra01b",
+          "atra01c",
+          "atra01d",
+          "atra01e",
+          "atra01f"
+        ]
+      },
+      "description": "Traffic and urban vehicle sounds"
+    },
+    "urb": {
+      "name": "Urban",
+      "sounds": {
+        "ambient": [
+          "aurb01a",
+          "aurb01b",
+          "aurb01c",
+          "aurb01d",
+          "aurb01e",
+          "aurb01f",
+          "aurb02a",
+          "aurb02b",
+          "aurb02c",
+          "aurb02d"
+        ]
+      },
+      "description": "Urban ambient sounds"
+    },
+    "wat": {
+      "name": "Water",
+      "sounds": {
+        "load": [
+          "awatloa",
+          "awatlob",
+          "awatloc"
+        ]
+      },
+      "description": "Water loading or white noise sounds"
+    },
+    "wav": {
+      "name": "Waves",
+      "sounds": {
+        "wave1": [
+          "awav01a",
+          "awav01b",
+          "awav01c",
+          "awav01d"
+        ],
+        "wave2": [
+          "awav02a",
+          "awav02b",
+          "awav02c",
+          "awav02d"
+        ],
+        "wave3": [
+          "awav03a",
+          "awav03b",
+          "awav03c",
+          "awav03d",
+          "awav03e"
+        ]
+      },
+      "description": "Ocean wave sounds"
+    },
+    "win": {
+      "name": "Wind",
+      "sounds": {
+        "wind1": [
+          "awin01a",
+          "awin01b",
+          "awin01c",
+          "awin01d"
+        ],
+        "wind2": [
+          "awin02a",
+          "awin02b",
+          "awin02c",
+          "awin02d"
+        ]
+      },
+      "description": "Wind blowing sounds"
+    },
+    "pro": {
+      "name": "Protesters",
+      "sounds": {
+        "protest": [
+          "aprotr1",
+          "aprotr2",
+          "aprotr3",
+          "aprotr4",
+          "aprotr5"
+        ]
+      },
+      "description": "Protester crowd sounds"
+    }
+  },
+  "general": {
+    "explosions": {
+      "name": "Explosions",
+      "sounds": {
+        "exp01": [
+          "gexp01a"
+        ],
+        "exp05": [
+          "gexp05a"
+        ],
+        "exp06": [
+          "gexp06a"
+        ],
+        "exp07": [
+          "gexp07a"
+        ],
+        "exp10": [
+          "gexp10a"
+        ],
+        "exp11": [
+          "gexp11a"
+        ],
+        "exp14": [
+          "gexp14a",
+          "gexp14b",
+          "gexp14c",
+          "gexp14d"
+        ],
+        "exp15": [
+          "gexp15a"
+        ],
+        "apo": [
+          "gexpapoa",
+          "gexpapob",
+          "gexpapoc"
+        ],
+        "barrel": [
+          "gexpbara",
+          "gexpbarb",
+          "gexpbarc"
+        ],
+        "crate": [
+          "gexpcraa"
+        ],
+        "ifv": [
+          "gexpifva",
+          "gexpifvb",
+          "gexpifvc"
+        ],
+        "wall": [
+          "gexpwala",
+          "gexpwalb",
+          "gexpwalc"
+        ],
+        "water_mine": [
+          "gexpwama",
+          "gexpwamb"
+        ],
+        "water_ship": [
+          "gexpwasa",
+          "gexpwasb"
+        ]
+      },
+      "description": "Various explosion sound effects"
+    },
+    "damage": {
+      "name": "Damage",
+      "sounds": {
+        "damage1": [
+          "gdamag1a",
+          "gdamag1b",
+          "gdamag1c",
+          "gdamag1d",
+          "gdamag1e"
+        ]
+      },
+      "description": "Damage impact sounds"
+    },
+    "fires": {
+      "name": "Fires",
+      "sounds": {
+        "fire_loop1": [
+          "gfirlo1a",
+          "gfirlo1b",
+          "gfirlo1c",
+          "gfirlo1d",
+          "gfirlo1e",
+          "gfirlo1f",
+          "gfirlo1g"
+        ],
+        "fire_loop2": [
+          "gfirlo2a",
+          "gfirlo2b",
+          "gfirlo2c",
+          "gfirlo2d",
+          "gfirlo2e",
+          "gfirlo2f",
+          "gfirlo2g"
+        ]
+      },
+      "description": "Fire burning loop sounds"
+    },
+    "foul": {
+      "name": "Foul Language",
+      "sounds": {
+        "foul_loop": [
+          "gfoulo1a",
+          "gfoulo1b",
+          "gfoulo1c"
+        ]
+      },
+      "description": "Censored language sounds"
+    },
+    "radio": {
+      "name": "Radio Chatter",
+      "sounds": {
+        "radio1": [
+          "gradio1a",
+          "gradio1b",
+          "gradio1c",
+          "gradio1d",
+          "gradio1e",
+          "gradio1f",
+          "gradio1g"
+        ],
+        "radio3": [
+          "gradio3a",
+          "gradio3b",
+          "gradio3c",
+          "gradio3d",
+          "gradio3e",
+          "gradio3f",
+          "gradio3g"
+        ]
+      },
+      "description": "Military radio chatter"
+    },
+    "civilians": {
+      "name": "Civilians",
+      "sounds": {
+        "all_die": [
+          "galldiea"
+        ],
+        "all_move": [
+          "gallmova",
+          "gallmovb"
+        ],
+        "all_select": [
+          "gallsela",
+          "gallselb"
+        ],
+        "bea_attack": [
+          "gbeaatta",
+          "gbeaattb"
+        ],
+        "bea_die": [
+          "gbeadiea",
+          "gbeadieb"
+        ],
+        "bea_fear": [
+          "gbeafeaa",
+          "gbeafeab"
+        ],
+        "bea_move": [
+          "gbeamova",
+          "gbeamovb",
+          "gbeamovc"
+        ],
+        "bea_select": [
+          "gbeasela",
+          "gbeaselb"
+        ],
+        "chi_ambient": [
+          "gchiamba",
+          "gchiambb",
+          "gchiambc"
+        ],
+        "chi_attack": [
+          "gchiatta",
+          "gchiattb",
+          "gchiattc"
+        ],
+        "chi_die": [
+          "gchidiea",
+          "gchidieb"
+        ],
+        "chi_fear": [
+          "gchifeaa",
+          "gchifeab"
+        ],
+        "chi_move": [
+          "gchimova",
+          "gchimovb"
+        ],
+        "chi_select": [
+          "gchisela",
+          "gchiselb"
+        ],
+        "cop_die": [
+          "gcopdiea"
+        ],
+        "cow_die": [
+          "gcowdiea"
+        ],
+        "cow_move": [
+          "gcowmova",
+          "gcowmovb"
+        ],
+        "cow_select": [
+          "gcowsela",
+          "gcowselb",
+          "gcowselc"
+        ],
+        "mon_die": [
+          "gmondiea"
+        ],
+        "car_select": [
+          "gcarsela"
+        ]
+      },
+      "description": "Civilian unit sounds"
+    },
+    "crates": {
+      "name": "Crates",
+      "sounds": {
+        "armor": [
+          "gcraarmo"
+        ],
+        "firepower": [
+          "gcrafire"
+        ],
+        "free_unit": [
+          "gcrafree"
+        ],
+        "heal": [
+          "gcraheal"
+        ],
+        "promote": [
+          "gcraprom"
+        ],
+        "speed": [
+          "gcraspee"
+        ]
+      },
+      "description": "Crate pickup bonus sounds"
+    },
+    "misc": {
+      "name": "Miscellaneous",
+      "sounds": {
+        "enter": [
+          "genter1a"
+        ],
+        "exit": [
+          "gexit1a"
+        ],
+        "defuse": [
+          "gdefuse"
+        ],
+        "flare": [
+          "gflare"
+        ],
+        "naval_sink": [
+          "gnavsina"
+        ],
+        "ore_upgrade": [
+          "goreupa"
+        ],
+        "power_off": [
+          "gpowof"
+        ],
+        "power_on": [
+          "gpowon"
+        ],
+        "psy_amp": [
+          "gpsyampa",
+          "gpsyampb",
+          "gpsyampc"
+        ],
+        "ship": [
+          "gship1a"
+        ],
+        "tugboat": [
+          "gtugboaa",
+          "gtugboab"
+        ],
+        "upgrade": [
+          "gupgrad1"
+        ],
+        "air_raid": [
+          "gairraid"
+        ],
+        "black_cruise": [
+          "gblacrua",
+          "gblacrub"
+        ],
+        "sand_cruise": [
+          "gsancrua",
+          "gsancrub"
+        ],
+        "ali_attack": [
+          "galiatta",
+          "galiattb"
+        ]
+      },
+      "description": "Miscellaneous game sound effects"
+    }
+  },
+  "superweapons": {
+    "chr": {
+      "name": "Chronosphere",
+      "faction": "Allied",
+      "sounds": {
+        "loop": [
+          "schrlo1",
+          "schrlo2a",
+          "schrlo2b",
+          "schrlo2c",
+          "schrlo3",
+          "schrlo4",
+          "schrlo5a",
+          "schrlo5b",
+          "schrlo5c",
+          "schrlo6"
+        ],
+        "move": [
+          "schrmov"
+        ],
+        "open": [
+          "schropen"
+        ]
+      },
+      "description": "Allied chronosphere - teleportation superweapon"
+    },
+    "iro": {
+      "name": "Iron Curtain",
+      "faction": "Soviet",
+      "sounds": {
+        "defend": [
+          "sirodefa",
+          "sirodefb",
+          "sirodefc",
+          "sirodefd"
+        ],
+        "loop": [
+          "sirolo2a",
+          "sirolo2b",
+          "sirolo2c"
+        ],
+        "false": [
+          "siroof"
+        ],
+        "true": [
+          "siroon"
+        ],
+        "ready": [
+          "siroread"
+        ]
+      },
+      "description": "Soviet iron curtain - invulnerability superweapon"
+    },
+    "nuk": {
+      "name": "Nuclear Missile",
+      "faction": "Soviet",
+      "sounds": {
+        "explode": [
+          "snukexpl"
+        ],
+        "intro": [
+          "snukintr"
+        ],
+        "launch": [
+          "snuklaun"
+        ],
+        "ready": [
+          "snukread"
+        ],
+        "siren": [
+          "snuksire"
+        ]
+      },
+      "description": "Soviet nuclear missile superweapon"
+    },
+    "par": {
+      "name": "Parabombs",
+      "faction": "Allied",
+      "sounds": {
+        "drop": [
+          "sparadra"
+        ],
+        "loop": [
+          "sparlo2a",
+          "sparlo2b",
+          "sparlo2c",
+          "sparlo3"
+        ]
+      },
+      "description": "Allied parabomb superweapon"
+    },
+    "wea": {
+      "name": "Weather Control",
+      "faction": "Allied",
+      "sounds": {
+        "intro": [
+          "sweaintr"
+        ],
+        "loop": [
+          "swealo2a",
+          "swealo2b",
+          "swealo2c"
+        ],
+        "ready": [
+          "swearead"
+        ],
+        "strike": [
+          "sweastra",
+          "sweastrb",
+          "sweastrc",
+          "sweastrd"
+        ]
+      },
+      "description": "Allied weather control device - lightning storm"
+    }
+  },
+  "ui": {
+    "base": {
+      "name": "Base Alerts",
+      "sounds": {
+        "base_under_attack": [
+          "ubase"
+        ],
+        "beacon": [
+          "ubeacon"
+        ],
+        "bonus": [
+          "ubonus"
+        ],
+        "command": [
+          "ucommand"
+        ],
+        "garrison": [
+          "ugarris"
+        ],
+        "warning": [
+          "uwarning"
+        ]
+      },
+      "description": "Base alert and notification sounds"
+    },
+    "menu": {
+      "name": "Menu Sounds",
+      "sounds": {
+        "camera": [
+          "ucamera"
+        ],
+        "cheer": [
+          "ucheer"
+        ],
+        "close": [
+          "umenscol"
+        ],
+        "click": [
+          "umenucl1"
+        ],
+        "message": [
+          "umessage"
+        ],
+        "new_game": [
+          "unewgame"
+        ],
+        "place": [
+          "uplace"
+        ],
+        "plan": [
+          "uplan1"
+        ],
+        "plan_add": [
+          "uplanadd"
+        ],
+        "queue": [
+          "uqeue"
+        ],
+        "repair": [
+          "urepair"
+        ],
+        "select_building": [
+          "uselbuil"
+        ],
+        "slide1": [
+          "uslide1"
+        ],
+        "slide2": [
+          "uslide2"
+        ],
+        "tab": [
+          "utab"
+        ],
+        "text": [
+          "utext"
+        ],
+        "game_close": [
+          "ugamclos"
+        ],
+        "acb_open": [
+          "uacbopen"
+        ]
+      },
+      "description": "Menu and UI interaction sounds"
+    },
+    "credits": {
+      "name": "Credits",
+      "sounds": {
+        "credits_down": [
+          "ucreddn"
+        ],
+        "credits_up": [
+          "ucredup"
+        ]
+      },
+      "description": "Credit counter sounds"
+    },
+    "radar": {
+      "name": "Radar",
+      "sounds": {
+        "radar_off": [
+          "uradarof"
+        ],
+        "radar_on": [
+          "uradaron"
+        ]
+      },
+      "description": "Radar activation sounds"
+    },
+    "movement": {
+      "name": "Movement Orders",
+      "sounds": {
+        "move_loop1": [
+          "umovlo1a",
+          "umovlo1b"
+        ],
+        "move_loop2": [
+          "umovlo2a",
+          "umovlo2b",
+          "umovlo2c"
+        ],
+        "move_loop3": [
+          "umovlo3a",
+          "umovlo3b",
+          "umovlo3c"
+        ]
+      },
+      "description": "Unit movement order sounds"
+    },
+    "scroll": {
+      "name": "Scroll",
+      "sounds": {
+        "scroll_loop1": [
+          "uscolo1"
+        ],
+        "scroll_loop2": [
+          "uscolo2a",
+          "uscolo2b",
+          "uscolo2c"
+        ]
+      },
+      "description": "Map scrolling sounds"
+    }
+  },
+  "timers": {
+    "countdown": {
+      "name": "Countdown",
+      "sounds": {
+        "count": [
+          "ts1",
+          "ts2",
+          "ts3",
+          "ts4",
+          "ts5",
+          "ts6",
+          "ts7",
+          "ts8",
+          "ts9",
+          "ts10"
+        ]
+      },
+      "description": "Countdown voice lines (10 to 1)"
+    }
+  },
+  "agent_personality_presets": {
+    "aggressive_commander": {
+      "name": "Aggressive Commander",
+      "description": "Bold, assertive agent for offensive tasks",
+      "recommended_units": [
+        "tan",
+        "sea",
+        "tes",
+        "des"
+      ],
+      "select_sounds": "Use Tanya or SEAL select sounds for confidence",
+      "move_sounds": "Use tank movement sounds for authority",
+      "complete_sounds": "Use attack sounds for task completion",
+      "error_sounds": "Use fear sounds for errors"
+    },
+    "cautious_analyst": {
+      "name": "Cautious Analyst",
+      "description": "Careful, methodical agent for analysis tasks",
+      "recommended_units": [
+        "spy",
+        "sni",
+        "ena",
+        "ens"
+      ],
+      "select_sounds": "Use spy or engineer select sounds",
+      "move_sounds": "Use quiet movement sounds",
+      "complete_sounds": "Use acknowledgment sounds",
+      "error_sounds": "Use fear or retreat sounds"
+    },
+    "elite_specialist": {
+      "name": "Elite Specialist",
+      "description": "Expert agent for complex specialized tasks",
+      "recommended_units": [
+        "chr",
+        "yur",
+        "tes",
+        "des"
+      ],
+      "select_sounds": "Use hero unit select sounds",
+      "move_sounds": "Use confident movement sounds",
+      "complete_sounds": "Use special attack sounds",
+      "error_sounds": "Use die sounds sparingly"
+    },
+    "basic_worker": {
+      "name": "Basic Worker",
+      "description": "Standard agent for routine tasks",
+      "recommended_units": [
+        "gi",
+        "con",
+        "ena",
+        "ens"
+      ],
+      "select_sounds": "Use basic infantry select sounds",
+      "move_sounds": "Use standard movement sounds",
+      "complete_sounds": "Use acknowledgment sounds",
+      "error_sounds": "Use fear sounds"
+    },
+    "scout_explorer": {
+      "name": "Scout Explorer",
+      "description": "Fast, information-gathering agent",
+      "recommended_units": [
+        "dog",
+        "roc",
+        "spy",
+        "ter"
+      ],
+      "select_sounds": "Use scout unit select sounds",
+      "move_sounds": "Use fast movement sounds",
+      "complete_sounds": "Use quick acknowledgment",
+      "error_sounds": "Use retreat sounds"
+    }
+  },
+  "action_mappings": {
+    "agent_selected": {
+      "description": "When user selects an agent",
+      "sound_type": "select (se)",
+      "examples": [
+        "igisea",
+        "itansea",
+        "vgrasea"
+      ]
+    },
+    "agent_receives_task": {
+      "description": "When agent receives a new task",
+      "sound_type": "move (mo) or acknowledgment",
+      "examples": [
+        "igimoa",
+        "itanmoa",
+        "vgramoa"
+      ]
+    },
+    "agent_working": {
+      "description": "While agent is processing (loop)",
+      "sound_type": "loop (lo) sounds",
+      "examples": [
+        "iroclo1",
+        "vkirlo1",
+        "schrlo1"
+      ]
+    },
+    "task_complete": {
+      "description": "When agent completes a task successfully",
+      "sound_type": "attack (at) or special sounds",
+      "examples": [
+        "igiata",
+        "itanata",
+        "vgraata"
+      ]
+    },
+    "agent_error": {
+      "description": "When agent encounters an error",
+      "sound_type": "fear (fe) or die (di)",
+      "examples": [
+        "igifea",
+        "itandia",
+        "vgendiea"
+      ]
+    },
+    "agent_blocked": {
+      "description": "When agent is waiting or blocked",
+      "sound_type": "select or status sounds",
+      "examples": [
+        "igisea",
+        "vgristaa"
+      ]
+    },
+    "critical_alert": {
+      "description": "Critical system alerts",
+      "sound_type": "UI warning or base alerts",
+      "examples": [
+        "ubase",
+        "uwarning",
+        "snuksire"
+      ]
+    },
+    "success_notification": {
+      "description": "Major success or milestone",
+      "sound_type": "UI cheer or upgrade sounds",
+      "examples": [
+        "ucheer",
+        "gupgrad1",
+        "gcraprom"
+      ]
+    },
+    "ambient_background": {
+      "description": "Background ambient sounds for atmosphere",
+      "sound_type": "ambient loops",
+      "examples": [
+        "abirj01a",
+        "awav01a",
+        "gfirlo1a"
+      ]
+    }
+  }
+}
